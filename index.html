@@ -1,0 +1,2015 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games website</title>
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav class="navbar navbar-expand-lg bg-dark py-3 fixed-top" id="navId">
+      <div class="container">
+        <a
+          class="navbar-brand text-primary fw-bold d-flex align-items-center"
+          href="#"
+        >
+          <span class="fa-solid fa-gamepad me-2"></span>
+          GameArena
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span
+            class="fa-solid fa-bars text-light fa-xl transition-colors hover-text-primary"
+          ></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light transition-colors hover-text-primary"
+                href="#latest-games"
+                >OUR GAMES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light transition-colors hover-text-primary"
+                href="#what-we-do"
+                >What We Do</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light transition-colors hover-text-primary"
+                href="#team-members"
+                >Our Team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light transition-colors hover-text-primary"
+                href="#contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+
+          <div
+            class="d-flex flex-column flex-lg-row align-items-lg-center gap-3"
+          >
+            <div
+              class="text-light transition-colors hover-text-primary cursor-pointer d-flex align-items-center"
+            >
+              <span class="fa-regular fa-bell fa-lg"></span>
+              <span class="d-lg-none ms-2">Notifications</span>
+            </div>
+            <div
+              class="text-light transition-colors hover-text-primary cursor-pointer d-flex align-items-center"
+            >
+              <span class="fa-regular fa-message fa-lg"></span>
+              <span class="d-lg-none ms-2">Messages</span>
+            </div>
+            <button
+              class="btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-2"
+            >
+              Sign In
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section
+        id="hero"
+        class="hero-section min-vh-100 pt-30 pb-16 position-relative text-light"
+      >
+        <div class="container">
+          <div class="row align-items-start gy-5">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="fs-2 fw-bold mb-4">
+                THE ULTIMATE
+                <span class="d-block text-primary"> GAMING </span>
+                EXPERIENCE
+              </h1>
+              <p class="text-gray-300 max-w mb-4 m-auto ms-lg-0">
+                Join millions of gamers worldwide in the most competitive
+                eSports tournaments. Experience next-level gaming with
+                cutting-edge technology and endless possibilities.
+              </p>
+              <div
+                class="buttons d-flex flex-column flex-lg-row gap-3 justify-content-center justify-content-lg-start"
+              >
+                <button
+                  class="btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-3"
+                >
+                  Start Gaming Now
+                </button>
+                <button
+                  class="btn border-ch rounded-3 text-primary transition-colors fw-bold position-relative btn-shine px-4 py-3"
+                >
+                  Watch Tournaments
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 position-relative">
+              <div class="inner hero-img-shadow rounded-4">
+                <figure>
+                  <img
+                    src="./images/hero-img.png"
+                    class="w-100 h-96 rounded-4 d-block object-fit-cover"
+                    alt="hero-img"
+                  />
+                </figure>
+              </div>
+              <div class="position-absolute absolute">
+                <div
+                  class="bg-dark p-4 d-flex align-items-center justify-content-center gap-2 rounded-3 border-gray"
+                >
+                  <span class="fa-solid fa-trophy fa-xl text-primary"></span>
+                  <div>
+                    <p class="m-0 text-secondary">Active Players</p>
+                    <p class="fs-4 m-0">2.5M+</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="latest-games" class="bg-dark py-16 text-light">
+        <div class="container">
+          <div class="text-center">
+            <p
+              class="section-title text-primary fw-bold position-relative w-fit m-auto mb-3"
+            >
+              OUR GAMES
+            </p>
+            <h2 class="fw-bold fs-1">Our Latest Games</h2>
+          </div>
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade mt-5"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active transition-colors d-flex">
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-1.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="atest-games-1"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-gamepad me-1 text-primary"
+                        ></span>
+                        ADVENTURE
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-users text-primary me-1"
+                        ></span>
+                        MULTIPLAYER
+                      </span>
+                    </div>
+                    <div
+                      class="opacity-0 position-absolute bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">Alien Companions</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-2.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-2"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-flag-checkered me-1 text-primary"
+                        ></span>
+                        RACING
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span class="fa-solid fa-bolt text-primary me-1"></span>
+                        SCI-FI
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">Cyber Run 2099</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-3.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-3"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-brands fa-discord me-1 text-primary"
+                        ></span>
+                        ACTION
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-microchip text-primary me-1"
+                        ></span>
+                        GEFORCE
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">
+                        The Legend of Zelda: Tears of the Kingdom
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item transition-colors d-flex">
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-4.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-4"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-shield-halved me-1 text-primary"
+                        ></span>
+                        RPG
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-wand-magic-sparkles text-primary me-1"
+                        ></span>
+                        FANTASY
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">
+                        Aetheria Chronicles
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-5.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-5"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-crosshairs me-1 text-primary"
+                        ></span>
+                        SHOOTER
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-user-friends text-primary me-1"
+                        ></span>
+                        CO-OP
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">Warfront Protocol</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-6.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-6"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-dragon me-1 text-primary"
+                        ></span>
+                        FOOTBALL
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span class="fa-solid fa-star text-primary me-1"></span>
+                        FANTASY
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">Shot Striker</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item transition-colors d-flex">
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-7.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-7"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-trophy me-1 text-primary"
+                        ></span>
+                        SPORTS
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span class="fa-solid fa-fire text-primary me-1"></span>
+                        LEAGUE
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">
+                        Epic Gaming League
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-8.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-8"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-rocket me-1 text-primary"
+                        ></span>
+                        SPACE
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-globe text-primary me-1"
+                        ></span>
+                        EXPLORATION
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">
+                        Barren alien worlds
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 position-relative">
+                  <div class="inner p-1 rounded-4 position-relative">
+                    <figure class="rounded-4">
+                      <img
+                        src="./images/latest-games-9.png"
+                        class="w-100 d-block object-fit-cover rounded-4 transition-scale"
+                        alt="latest-games-9"
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute opacity-0 top-8 left-4 d-flex align-items-center gap-2 transition-colors"
+                    >
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-hat-wizard me-1 text-primary"
+                        ></span>
+                        ACTION
+                      </span>
+                      <span
+                        class="text-light fw-bold bg-black-50 rounded-5 py-1 px-12 fs-12"
+                      >
+                        <span
+                          class="fa-solid fa-dungeon text-primary me-1"
+                        ></span>
+                        FUTURISTIC
+                      </span>
+                    </div>
+                    <div
+                      class="position-absolute opacity-0 bottom-0 end-0 start-0 translate-y p-4 transition-colors"
+                    >
+                      <h3 class="fw-bold text-dark fs-18">Cloveland Quest</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="button-games d-flex flex-column flex-md-row justify-content-center gap-5 mt-5"
+            >
+              <div
+                class="button-switch d-flex align-items-center justify-content-center gap-3"
+              >
+                <button
+                  class="btn btn-ch transition-colors rounded-circle border-2 hover-text-primary"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="fa-solid fa-arrow-left text-gray-400 hover-text-primary"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="btn btn-ch transition-colors rounded-circle border-2 hover-text-primary"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next"
+                >
+                  <span class="fa-solid fa-arrow-right text-gray-400"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <button
+                class="btn border-ch rounded-3 text-primary transition-colors fw-bold position-relative px-4 py-3"
+              >
+                VIEW ALL GAMES
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="what-we-do"
+        class="bg-dark pt-16 pb-5 text-light position-relative section-separator"
+      >
+        <div class="container">
+          <div class="text-center">
+            <p
+              class="section-title text-primary fw-bold position-relative w-fit m-auto mb-3"
+            >
+              WHAT WE DO
+            </p>
+            <h2 class="fw-bold fs-1">More Than Just Games</h2>
+            <p class="fw-bold fs-1">
+              We Build
+              <span class="text-primary"> Interactive </span>
+              Journeys
+            </p>
+          </div>
+
+          <div class="row mt-5 gy-3 gx-2 gx-sm-3 align-items-stretch">
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="inner w-100 position-relative bg-dark-50 p-3 p-sm-4 d-flex flex-column justify-content-center align-items-center transition-scale text-center border-1 border-gray rounded-4 overflow-hidden"
+              >
+                <div
+                  class="icon w-48 h-48 bg-gray-800 transition-scale rounded-3 d-flex justify-content-center align-items-center mb-3"
+                >
+                  <span
+                    class="fa-solid fa-desktop text-primary transition-scale fa-lg"
+                  ></span>
+                </div>
+                <h3 class="fs-6 fs-sm-5 fw-bold m-0">PC Game</h3>
+                <span class="fs-6 fs-sm-5 fw-bold"> Development </span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="inner w-100 position-relative bg-dark-50 p-3 p-sm-4 d-flex flex-column justify-content-center align-items-center transition-scale text-center border-1 border-gray rounded-4 overflow-hidden"
+              >
+                <div
+                  class="icon w-48 h-48 bg-gray-800 transition-scale rounded-3 d-flex justify-content-center align-items-center mb-3"
+                >
+                  <span
+                    class="fa-solid fa-mobile-screen-button text-primary transition-scale fa-lg"
+                  ></span>
+                </div>
+                <h3 class="fs-6 fs-sm-5 fw-bold m-0">Mobile Game</h3>
+                <span class="fs-6 fs-sm-5 fw-bold"> Development </span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="overflow-hidden w-100 bg-dark-50 text-center border-1 border-gray rounded-4 d-flex"
+              >
+                <figure class="rounded-4 m-0 w-100 h-100">
+                  <img
+                    src="./images/what-we-do-1.png"
+                    class="w-100 h-100 d-block object-fit-cover rounded-4"
+                    alt="what-we-do-1"
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="inner w-100 position-relative bg-dark-50 p-3 p-sm-4 d-flex flex-column justify-content-center align-items-center transition-scale text-center border-1 border-gray rounded-4 overflow-hidden"
+              >
+                <div
+                  class="icon w-48 h-48 bg-gray-800 transition-scale rounded-3 d-flex justify-content-center align-items-center mb-3"
+                >
+                  <span
+                    class="fa-solid fa-vr-cardboard text-primary transition-scale fa-lg"
+                  ></span>
+                </div>
+                <h3 class="fs-6 fs-sm-5 fw-bold m-0">AR/VR</h3>
+                <span class="fs-6 fs-sm-5 fw-bold"> Solutions </span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="inner w-100 position-relative bg-dark-50 p-3 p-sm-4 d-flex flex-column justify-content-center align-items-center transition-scale text-center border-1 border-gray rounded-4 overflow-hidden"
+              >
+                <div
+                  class="icon w-48 h-48 bg-gray-800 transition-scale rounded-3 d-flex justify-content-center align-items-center mb-3"
+                >
+                  <span
+                    class="fa-solid fa-cubes text-primary transition-scale fa-lg"
+                  ></span>
+                </div>
+                <h3 class="fs-6 fs-sm-5 fw-bold m-0">AR/VR</h3>
+                <span class="fs-6 fs-sm-5 fw-bold"> Design </span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="overflow-hidden w-100 bg-dark-50 text-center border-1 border-gray rounded-4 d-flex"
+              >
+                <figure class="rounded-4 m-0 w-100 h-100">
+                  <img
+                    src="./images/what-we-do-2.png"
+                    class="w-100 h-100 d-block object-fit-cover rounded-4"
+                    alt="what-we-do-2"
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="inner w-100 position-relative bg-dark-50 p-3 p-sm-4 d-flex flex-column justify-content-center align-items-center transition-scale text-center border-1 border-gray rounded-4 overflow-hidden"
+              >
+                <div
+                  class="icon w-48 h-48 bg-gray-800 transition-scale rounded-3 d-flex justify-content-center align-items-center mb-3"
+                >
+                  <span
+                    class="fa-brands fa-playstation text-primary transition-scale fa-lg"
+                  ></span>
+                </div>
+                <h3 class="fs-6 fs-sm-5 fw-bold m-0">PS4 Game</h3>
+                <span class="fs-6 fs-sm-5 fw-bold"> Development </span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 d-flex">
+              <div
+                class="inner w-100 position-relative bg-dark-50 p-3 p-sm-4 d-flex flex-column justify-content-center align-items-center transition-scale text-center border-1 border-gray rounded-4 overflow-hidden"
+              >
+                <div
+                  class="icon w-48 h-48 bg-gray-800 transition-scale rounded-3 d-flex justify-content-center align-items-center mb-3"
+                >
+                  <span
+                    class="fa-solid fa-cube text-primary transition-scale fa-lg"
+                  ></span>
+                </div>
+                <h3 class="fs-6 fs-sm-5 fw-bold m-0">3D</h3>
+                <span class="fs-6 fs-sm-5 fw-bold"> Modelings </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sponsors" class="bg-dark py-13 overflow-hidden">
+        <div class="position-relative">
+          <div class="position-relative overflow-hidden mb-4">
+            <div class="d-flex animate-scroll-left">
+              <div class="d-flex gap-3">
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-1.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-1"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-2.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-2"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-3.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-3"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-4.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-4"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-5.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-5"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-6.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-6"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-7.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-7"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-8.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-8"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-9.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-9"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-10.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-10"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-11.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-11"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-12.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-12"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-1.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-1"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-2.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-2"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-3.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-3"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-4.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-4"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-5.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-5"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-6.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-6"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-7.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-7"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-8.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-8"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-9.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-9"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-10.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-10"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-11.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-11"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-12.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-12"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-1.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-1"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-2.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-2"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-3.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-3"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-4.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-4"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-5.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-5"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-6.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-6"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-7.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-7"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-8.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-8"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-9.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-9"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-10.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-10"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-11.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-11"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-12.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-12"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="position-relative overflow-hidden">
+            <div class="d-flex animate-scroll-right">
+              <div class="d-flex gap-3">
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-1.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-1"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-2.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-2"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-3.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-3"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-4.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-4"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-5.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-5"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-6.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-6"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-7.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-7"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-8.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-8"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-9.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-9"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-10.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-10"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-11.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-11"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-12.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-12"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-1.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-1"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-2.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-2"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-3.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-3"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-4.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-4"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-5.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-5"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-6.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-6"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-7.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-7"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-8.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-8"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-9.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-9"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-10.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-10"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-11.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-11"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="transition-colors bg-gray-800 rounded-4 overflow-hidden w-24 h-24 d-flex justify-content-center align-items-center"
+                >
+                  <figure class="m-0">
+                    <img
+                      src="./images/logo-12.jpg"
+                      class="w-100 d-block overflow-hidden"
+                      alt="logo-12"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team-members" class="bg-dark py-24 text-light">
+        <div class="container">
+          <div class="text-center">
+            <p
+              class="section-title text-primary fw-bold position-relative w-fit m-auto mb-3"
+            >
+              OUR TEAM
+            </p>
+            <h2 class="fw-bold fs-48">Our Best Team Members</h2>
+            <p class="fw-bold fs-5 text-secondary mt-4">
+              Meet the professional gamers and experts behind our success
+            </p>
+          </div>
+          <div class="row mt-5 gy-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-1.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-1"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Alex "Phantom" Chen</h3>
+                      <p class="text-primary fs-7 m-0">Pro Player - VALORANT</p>
+                      <p class="text-gray-400 fs-8">World Champion 2023</p>
+                    </div>
+                    <div class="rotate text-primary fw-bold fs-18">PHANTOM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-2.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-2"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Ali "Nova" Ahmed</h3>
+                      <p class="text-primary fs-7 m-0">
+                        Pro Player - League of Legends
+                      </p>
+                      <p class="text-gray-400 fs-8">MVP 2023 Season</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">NOVA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-3.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-3"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Marcus "Viper" Rodriguez</h3>
+                      <p class="text-primary fs-7 m-0">Head Coach - CS:GO</p>
+                      <p class="text-gray-400 fs-8">5x Major Winner</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">VIPER</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-4.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-4"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Seif "Saga" Usama</h3>
+                      <p class="text-primary fs-7 m-0">Strategic Analyst</p>
+                      <p class="text-gray-400 fs-8">Data Science Expert</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">SAGA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-5.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-5"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Jake "Storm" Wilson</h3>
+                      <p class="text-primary fs-7 m-0">
+                        Pro Player - Apex Legends
+                      </p>
+                      <p class="text-gray-400 fs-8">Rising Star 2023</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">STORM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-6.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-6"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">David "Titan" Park</h3>
+                      <p class="text-primary fs-7 m-0">Team Captain - Dota 2</p>
+                      <p class="text-gray-400 fs-8">The International Winner</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">TITAN</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-7.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-7"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Khaled "Phoenix" Ali</h3>
+                      <p class="text-primary fs-7 m-0">Content Creator</p>
+                      <p class="text-gray-400 fs-8">2M+ Followers</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">PHOENIX</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="inner position-relative h-80 cursor-pointer">
+                <figure class="m-0">
+                  <img
+                    src="./images/avatar-8.png"
+                    class="w-100 object-fit-cover d-block rounded-4"
+                    alt="avatar-8"
+                  />
+                </figure>
+                <div
+                  class="team-member-info position-absolute p-3 bottom-0 start-0 end-0"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h3 class="fw-bold mb-1">Ryan "Ghost" Miller</h3>
+                      <p class="text-primary fs-7 m-0">Team Manager</p>
+                      <p class="text-gray-400 fs-8">Operations Lead</p>
+                    </div>
+                    <div class="text-primary fw-bold fs-18">GHOST</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-24 text-light bg-black-50">
+        <div class="container">
+          <div class="text-center">
+            <p
+              class="section-title text-primary fw-bold position-relative w-fit m-auto mb-3"
+            >
+              CONTACT US
+            </p>
+            <h2 class="fw-bold fs-48">Get In Touch</h2>
+            <p class="fw-bold fs-5 text-secondary mt-4">
+              Have questions or need support? We're here to help!
+            </p>
+          </div>
+          <div class="row mt-5 gy-4">
+            <div class="col-lg-6 d-flex flex-column gap-4">
+              <div>
+                <div class="bg-gray-800 p-32 rounded-4">
+                  <div class="d-flex align-items-center mb-3 column-gap-4">
+                    <div
+                      class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle"
+                    >
+                      <span
+                        class="fa-solid fa-map-marker-alt text-dark fa-xl"
+                      ></span>
+                    </div>
+                    <div>
+                      <h3 class="fs-5 fw-bold m-0">Our Location</h3>
+                      <p class="text-gray-400 m-0">
+                        123 Gaming Street, Esports City, EC 12345
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="bg-gray-800 p-32 rounded-4">
+                  <div class="d-flex align-items-center mb-3 column-gap-4">
+                    <div
+                      class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle"
+                    >
+                      <span class="fa-solid fa-phone text-dark fa-xl"></span>
+                    </div>
+                    <div>
+                      <h3 class="fs-5 fw-bold m-0">Phone Number</h3>
+                      <p class="text-gray-400 m-0">+1 (555) 123-4567</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="bg-gray-800 p-32 rounded-4">
+                  <div class="d-flex align-items-center mb-3 column-gap-4">
+                    <div
+                      class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle"
+                    >
+                      <span class="fa-solid fa-envelope text-dark fa-xl"></span>
+                    </div>
+                    <div>
+                      <h3 class="fs-5 fw-bold m-0">Email Address</h3>
+                      <p class="text-gray-400 m-0">contact@gamearena.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-32 rounded-4 text-dark bg-linear">
+                <h3 class="fs-4 fw-bold mb-3">Join Our Community</h3>
+                <p class="mb-4">
+                  Connect with us on social media for the latest updates
+                </p>
+                <div class="d-flex align-items-center column-gap-3">
+                  <div
+                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+                  >
+                    <span
+                      class="fa-brands fa-discord text-primary fa-lg"
+                    ></span>
+                  </div>
+                  <div
+                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+                  >
+                    <span
+                      class="fa-brands fa-x-twitter text-primary fa-lg"
+                    ></span>
+                  </div>
+                  <div
+                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+                  >
+                    <span
+                      class="fa-brands fa-instagram text-primary fa-lg"
+                    ></span>
+                  </div>
+                  <div
+                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+                  >
+                    <span
+                      class="fa-brands fa-youtube text-primary fa-lg"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="inner bg-gray-800 p-32 rounded-4">
+                <h3 class="fs-4 fw-bold">Send us a Message</h3>
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="input-first" class="form-label"
+                      >First Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control bg-gray-700 text-white"
+                      id="input-first"
+                      name="fname"
+                      placeholder="Your first name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="input-last" class="form-label"
+                      >Last Name
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control bg-gray-700 text-white"
+                      id="input-last"
+                      name="lname"
+                      placeholder="Your last name"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="inputEmail" class="form-label"
+                      >Email Address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control bg-gray-700 text-white"
+                      id="inputEmail"
+                      name="email"
+                      placeholder="your.email@example.com"
+                      required
+                    />
+                  </div>
+                  <label for="select">Subject</label>
+                  <select
+                    class="form-select bg-gray-700 text-white"
+                    id="select"
+                    aria-label="Default select example"
+                    name="subject"
+                  >
+                    <option value="general" selected>General Inquiry</option>
+                    <option value="tournament">Tournament Support</option>
+                    <option value="technical">Technical Issue</option>
+                    <option value="partnership">Partnership</option>
+                    <option value="media">Media Request</option>
+                  </select>
+                  <div>
+                    <label for="floatingTextarea" class="form-label"
+                      >Messages</label
+                    >
+                    <textarea
+                      class="form-control bg-gray-700 text-white"
+                      rows="5"
+                      cols="5"
+                      placeholder="Tell us how we can help you..."
+                      id="floatingTextarea"
+                      name="Message"
+                    ></textarea>
+                  </div>
+                  <div>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="checkIndeterminate"
+                      name="newsletter"
+                    />
+                    <label
+                      class="form-check-label text-gray-400"
+                      for="checkIndeterminate"
+                    >
+                      Subscribe to our newsletter for gaming updates
+                    </label>
+                  </div>
+                  <div class="col-12">
+                    <button
+                      type="submit"
+                      class="d-flex justify-content-center align-items-center w-100 btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-3"
+                    >
+                      Send Messages
+                      <span class="fa-solid fa-paper-plane ms-3"></span>
+                    </button>
+                  </div>
+                </form>
+                <div class="pt-32 border-top mt-4">
+                  <div
+                    class="d-flex justify-content-center align-items-center justify-content-around mt-2"
+                  >
+                    <div>
+                      <div class="text-primary mb-1 fs-4 fw-bold">24/7</div>
+                      <div class="text-gray-400 fs-7">Support Available</div>
+                    </div>
+                    <div>
+                      <div class="text-primary mb-1 fs-4 fw-bold">&lt;1hr</div>
+                      <div class="text-gray-400 fs-7">Average Response</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner">
+              <a class="navbar-brand text-primary fw-bold" href="#">
+                <span class="fa-solid fa-gamepad me-2"></span>
+                GameArena
+              </a>
+              <p class="text-gray-400 mt-4 lh-lg">
+                The ultimate destination for competitive gaming, esports
+                tournaments, and gaming community.
+              </p>
+              <div class="d-flex column-gap-3 mt-4">
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  class="text-gray-400 cursor-pointer hover-text-primary fs-5"
+                >
+                  <span class="fa-brands fa-x-twitter text-gray-400"></span>
+                </a>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="text-gray-400 cursor-pointer hover-text-primary fs-5"
+                >
+                  <span class="fa-brands fa-facebook text-gray-400"></span>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="text-gray-400 cursor-pointer hover-text-primary fs-5"
+                >
+                  <span class="fa-brands fa-instagram text-gray-400"></span>
+                </a>
+                <a
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  class="text-gray-400 cursor-pointer hover-text-primary fs-5"
+                >
+                  <span class="fa-brands fa-youtube text-gray-400"></span>
+                </a>
+                <a
+                  href="https://www.twitch.tv/"
+                  target="_blank"
+                  class="text-gray-400 cursor-pointer hover-text-primary fs-5"
+                >
+                  <span class="fa-brands fa-twitch text-gray-400"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner">
+              <h4 class="fw-bold fs-5 text-light">Games</h4>
+              <ul class="text-gray-400 mt-4">
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >VALORANT</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >League of Legends</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >CS:GO</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Dota 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Apex Legends</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner">
+              <h4 class="fw-bold fs-5 text-light">Tournaments</h4>
+              <ul class="text-gray-400 mt-4">
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Upcoming Events</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Live Matches</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Results
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Rankings
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Schedule</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner">
+              <h4 class="fw-bold fs-5 text-light">Support</h4>
+              <ul class="text-gray-400 mt-4">
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Help Center</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Bug Reports</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Feature Requests</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#latest-games"
+                    class="hover-text-primary cursor-pointer"
+                    >Community Guidelines</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="border-top pt-32">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between align-items-md-start"
+          >
+            <p class="text-gray-400">© 2025 GameArena. All rights reserved.</p>
+            <div class="d-flex align-items-center column-gap-4 text-gray-400">
+              <a href="#privacy" class="hover-text-primary cursor-pointer"
+                >Privacy Policy</a
+              >
+              <a href="#terms" class="hover-text-primary cursor-pointer"
+                >Terms of Service</a
+              >
+              <a href="#cookies" class="hover-text-primary cursor-pointer"
+                >Cookie Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
