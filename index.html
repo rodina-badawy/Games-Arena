@@ -24,94 +24,73 @@
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navId">
-    <nav class="navbar navbar-expand-lg bg-dark py-3 fixed-top" id="navId">
-      <div class="container">
-        <a
-          class="navbar-brand text-primary fw-bold d-flex align-items-center"
-          href="#"
-        >
-          <span class="fa-solid fa-gamepad me-2"></span>
-          GameArena
-        </a>
+  <nav class="navbar navbar-expand-lg bg-dark py-3 fixed-top" id="navId">
+  <div class="container">
+    <a class="navbar-brand text-primary fw-bold d-flex align-items-center" href="#">
+      <span class="fa-solid fa-gamepad me-2"></span>
+      GameArena
+    </a>
+    <div class="d-flex align-items-center gap-3 d-lg-none">
+      <a href="#" class="text-light transition-colors hover-text-primary cursor-pointer d-flex align-items-center">
+        <span class="fa-regular fa-bell fa-lg"></span>
+      </a>
+      <a href="#" class="text-light transition-colors hover-text-primary cursor-pointer d-flex align-items-center">
+        <span class="fa-regular fa-message fa-lg"></span>
+      </a>
+      <button
+        class="navbar-toggler border-0 p-0 ms-2"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="fa-solid fa-bars text-light fa-xl transition-colors hover-text-primary"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light transition-colors hover-text-primary" href="#latest-games">OUR GAMES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light transition-colors hover-text-primary" href="#what-we-do">What We Do</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light transition-colors hover-text-primary" href="#team-members">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light transition-colors hover-text-primary" href="#contact">Contact Us</a>
+        </li>
+      </ul>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span
-            class="fa-solid fa-bars text-light fa-xl transition-colors hover-text-primary"
-          ></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-light"
-                aria-current="page"
-                href="#hero"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-light transition-colors hover-text-primary"
-                href="#latest-games"
-                >OUR GAMES</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-light transition-colors hover-text-primary"
-                href="#what-we-do"
-                >What We Do</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-light transition-colors hover-text-primary"
-                href="#team-members"
-                >Our Team</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-light transition-colors hover-text-primary"
-                href="#contact"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-
-          <div
-            class="d-flex flex-column flex-lg-row align-items-lg-center gap-3"
-          >
-            <div
-              class="text-light transition-colors hover-text-primary cursor-pointer d-flex align-items-center"
-            >
-              <span class="fa-regular fa-bell fa-lg"></span>
-              <span class="d-lg-none ms-2">Notifications</span>
-            </div>
-            <div
-              class="text-light transition-colors hover-text-primary cursor-pointer d-flex align-items-center"
-            >
-              <span class="fa-regular fa-message fa-lg"></span>
-              <span class="d-lg-none ms-2">Messages</span>
-            </div>
-            <button
-              class="btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-2"
-            >
-              Sign In
-            </button>
-          </div>
+      
+      <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-3 mt-3 mt-lg-0">
+        
+        
+        <div class="d-none d-lg-flex align-items-center gap-3 me-2">
+          <a href="#" class="text-light transition-colors hover-text-primary cursor-pointer">
+            <span class="fa-regular fa-bell fa-lg"></span>
+          </a>
+          <a href="#" class="text-light transition-colors hover-text-primary cursor-pointer">
+            <span class="fa-regular fa-message fa-lg"></span>
+          </a>
         </div>
+
+        
+        <button class="btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-2 w-100 w-lg-auto">
+          Sign In
+        </button>
       </div>
-    </nav>
+
+    </div>
+
+  </div>
+</nav>
     <main>
       <section
         id="hero"
@@ -1446,7 +1425,7 @@
               <div class="inner position-relative h-80 cursor-pointer">
                 <figure class="m-0">
                   <img
-                    src="./images/avatar-3.png"
+                    src="./images/avatar-3.webp"
                     class="w-100 object-fit-cover d-block rounded-4"
                     alt="avatar-3"
                   />
@@ -1471,7 +1450,7 @@
               <div class="inner position-relative h-80 cursor-pointer">
                 <figure class="m-0">
                   <img
-                    src="./images/avatar-4.png"
+                    src="./images/avatar-4.webp"
                     class="w-100 object-fit-cover d-block rounded-4"
                     alt="avatar-4"
                   />
@@ -1496,7 +1475,7 @@
               <div class="inner position-relative h-80 cursor-pointer">
                 <figure class="m-0">
                   <img
-                    src="./images/avatar-5.png"
+                    src="./images/avatar-5.webp"
                     class="w-100 object-fit-cover d-block rounded-4"
                     alt="avatar-5"
                   />
@@ -1523,7 +1502,7 @@
               <div class="inner position-relative h-80 cursor-pointer">
                 <figure class="m-0">
                   <img
-                    src="./images/avatar-6.png"
+                    src="./images/avatar-6.webp"
                     class="w-100 object-fit-cover d-block rounded-4"
                     alt="avatar-6"
                   />
@@ -1548,7 +1527,7 @@
               <div class="inner position-relative h-80 cursor-pointer">
                 <figure class="m-0">
                   <img
-                    src="./images/avatar-7.png"
+                    src="./images/avatar-7.webp"
                     class="w-100 object-fit-cover d-block rounded-4"
                     alt="avatar-7"
                   />
@@ -1573,7 +1552,7 @@
               <div class="inner position-relative h-80 cursor-pointer">
                 <figure class="m-0">
                   <img
-                    src="./images/avatar-8.png"
+                    src="./images/avatar-8.webp"
                     class="w-100 object-fit-cover d-block rounded-4"
                     alt="avatar-8"
                   />
@@ -1610,205 +1589,218 @@
               Have questions or need support? We're here to help!
             </p>
           </div>
-          <div class="row mt-5 gy-4">
-            <div class="col-lg-6 d-flex flex-column gap-4">
-              <div>
-                <div class="bg-gray-800 p-32 rounded-4">
-                  <div class="d-flex align-items-center mb-3 column-gap-4">
-                    <div
-                      class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle"
-                    >
-                      <span
-                        class="fa-solid fa-map-marker-alt text-dark fa-xl"
-                      ></span>
-                    </div>
-                    <div>
-                      <h3 class="fs-5 fw-bold m-0">Our Location</h3>
-                      <p class="text-gray-400 m-0">
-                        123 Gaming Street, Esports City, EC 12345
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="bg-gray-800 p-32 rounded-4">
-                  <div class="d-flex align-items-center mb-3 column-gap-4">
-                    <div
-                      class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle"
-                    >
-                      <span class="fa-solid fa-phone text-dark fa-xl"></span>
-                    </div>
-                    <div>
-                      <h3 class="fs-5 fw-bold m-0">Phone Number</h3>
-                      <p class="text-gray-400 m-0">+1 (555) 123-4567</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="bg-gray-800 p-32 rounded-4">
-                  <div class="d-flex align-items-center mb-3 column-gap-4">
-                    <div
-                      class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle"
-                    >
-                      <span class="fa-solid fa-envelope text-dark fa-xl"></span>
-                    </div>
-                    <div>
-                      <h3 class="fs-5 fw-bold m-0">Email Address</h3>
-                      <p class="text-gray-400 m-0">contact@gamearena.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="p-32 rounded-4 text-dark bg-linear">
-                <h3 class="fs-4 fw-bold mb-3">Join Our Community</h3>
-                <p class="mb-4">
-                  Connect with us on social media for the latest updates
-                </p>
-                <div class="d-flex align-items-center column-gap-3">
-                  <div
-                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
-                  >
-                    <span
-                      class="fa-brands fa-discord text-primary fa-lg"
-                    ></span>
-                  </div>
-                  <div
-                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
-                  >
-                    <span
-                      class="fa-brands fa-x-twitter text-primary fa-lg"
-                    ></span>
-                  </div>
-                  <div
-                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
-                  >
-                    <span
-                      class="fa-brands fa-instagram text-primary fa-lg"
-                    ></span>
-                  </div>
-                  <div
-                    class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
-                  >
-                    <span
-                      class="fa-brands fa-youtube text-primary fa-lg"
-                    ></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="inner bg-gray-800 p-32 rounded-4">
-                <h3 class="fs-4 fw-bold">Send us a Message</h3>
-                <form class="row g-3">
-                  <div class="col-md-6">
-                    <label for="input-first" class="form-label"
-                      >First Name</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control bg-gray-700 text-white"
-                      id="input-first"
-                      name="fname"
-                      placeholder="Your first name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="input-last" class="form-label"
-                      >Last Name
-                    </label>
-                    <input
-                      type="text"
-                      class="form-control bg-gray-700 text-white"
-                      id="input-last"
-                      name="lname"
-                      placeholder="Your last name"
-                      required
-                    />
-                  </div>
-                  <div class="col-12">
-                    <label for="inputEmail" class="form-label"
-                      >Email Address</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control bg-gray-700 text-white"
-                      id="inputEmail"
-                      name="email"
-                      placeholder="your.email@example.com"
-                      required
-                    />
-                  </div>
-                  <label for="select">Subject</label>
-                  <select
-                    class="form-select bg-gray-700 text-white"
-                    id="select"
-                    aria-label="Default select example"
-                    name="subject"
-                  >
-                    <option value="general" selected>General Inquiry</option>
-                    <option value="tournament">Tournament Support</option>
-                    <option value="technical">Technical Issue</option>
-                    <option value="partnership">Partnership</option>
-                    <option value="media">Media Request</option>
-                  </select>
-                  <div>
-                    <label for="floatingTextarea" class="form-label"
-                      >Messages</label
-                    >
-                    <textarea
-                      class="form-control bg-gray-700 text-white"
-                      rows="5"
-                      cols="5"
-                      placeholder="Tell us how we can help you..."
-                      id="floatingTextarea"
-                      name="Message"
-                    ></textarea>
-                  </div>
-                  <div>
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="checkIndeterminate"
-                      name="newsletter"
-                    />
-                    <label
-                      class="form-check-label text-gray-400"
-                      for="checkIndeterminate"
-                    >
-                      Subscribe to our newsletter for gaming updates
-                    </label>
-                  </div>
-                  <div class="col-12">
-                    <button
-                      type="submit"
-                      class="d-flex justify-content-center align-items-center w-100 btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-3"
-                    >
-                      Send Messages
-                      <span class="fa-solid fa-paper-plane ms-3"></span>
-                    </button>
-                  </div>
-                </form>
-                <div class="pt-32 border-top mt-4">
-                  <div
-                    class="d-flex justify-content-center align-items-center justify-content-around mt-2"
-                  >
-                    <div>
-                      <div class="text-primary mb-1 fs-4 fw-bold">24/7</div>
-                      <div class="text-gray-400 fs-7">Support Available</div>
-                    </div>
-                    <div>
-                      <div class="text-primary mb-1 fs-4 fw-bold">&lt;1hr</div>
-                      <div class="text-gray-400 fs-7">Average Response</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div class="row mt-5 gy-4">
+  <div class="col-lg-6 d-flex flex-column gap-4">
+    
+    <!-- Our Location -->
+    <div>
+      <div class="bg-gray-800 p-32 rounded-4">
+        <div class="d-flex align-items-center mb-3 column-gap-4">
+          
+          <div
+            class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle flex-shrink-0"
+          >
+            <span
+              class="fa-solid fa-map-marker-alt text-dark fa-xl"
+            ></span>
           </div>
+          <div>
+            <h3 class="fs-5 fw-bold m-0">Our Location</h3>
+            <p class="text-gray-400 m-0">
+              123 Gaming Street, Esports City, EC 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phone Number -->
+    <div>
+      <div class="bg-gray-800 p-32 rounded-4">
+        <div class="d-flex align-items-center mb-3 column-gap-4">
+         
+          <div
+            class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle flex-shrink-0"
+          >
+            <span class="fa-solid fa-phone text-dark fa-xl"></span>
+          </div>
+          <div>
+            <h3 class="fs-5 fw-bold m-0">Phone Number</h3>
+            <p class="text-gray-400 m-0">+1 (555) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Email Address -->
+    <div>
+      <div class="bg-gray-800 p-32 rounded-4">
+        <div class="d-flex align-items-center mb-3 column-gap-4">
+        
+          <div
+            class="d-flex justify-content-center align-items-center w-64 h-64 bg-primary rounded-circle flex-shrink-0"
+          >
+            <span class="fa-solid fa-envelope text-dark fa-xl"></span>
+          </div>
+          <div>
+            <h3 class="fs-5 fw-bold m-0">Email Address</h3>
+            <p class="text-gray-400 m-0">contact@gamearena.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Join Our Community -->
+    <div class="p-32 rounded-4 text-dark bg-linear">
+      <h3 class="fs-4 fw-bold mb-3">Join Our Community</h3>
+      <p class="mb-4">
+        Connect with us on social media for the latest updates
+      </p>
+      <div class="d-flex align-items-center column-gap-3">
+        <div
+          class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+        >
+          <span
+            class="fa-brands fa-discord text-primary fa-lg"
+          ></span>
+        </div>
+        <div
+          class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+        >
+          <span
+            class="fa-brands fa-x-twitter text-primary fa-lg"
+          ></span>
+        </div>
+        <div
+          class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+        >
+          <span
+            class="fa-brands fa-instagram text-primary fa-lg"
+          ></span>
+        </div>
+        <div
+          class="w-48 h-48 bg-dark d-flex justify-content-center align-items-center cursor-pointer rounded-circle transition-colors"
+        >
+          <span
+            class="fa-brands fa-youtube text-primary fa-lg"
+          ></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Send us a Message Form -->
+  <div class="col-lg-6">
+    <div class="inner bg-gray-800 p-32 rounded-4">
+      <h3 class="fs-4 fw-bold">Send us a Message</h3>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="input-first" class="form-label"
+            >First Name</label
+          >
+          <input
+            type="text"
+            class="form-control bg-gray-700 text-white"
+            id="input-first"
+            name="fname"
+            placeholder="Your first name"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="input-last" class="form-label"
+            >Last Name
+          </label>
+          <input
+            type="text"
+            class="form-control bg-gray-700 text-white"
+            id="input-last"
+            name="lname"
+            placeholder="Your last name"
+            required
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputEmail" class="form-label"
+            >Email Address</label
+          >
+          <input
+            type="email"
+            class="form-control bg-gray-700 text-white"
+            id="inputEmail"
+            name="email"
+            placeholder="your.email@example.com"
+            required
+          />
+        </div>
+        <label for="select">Subject</label>
+        <select
+          class="form-select bg-gray-700 text-white"
+          id="select"
+          aria-label="Default select example"
+          name="subject"
+        >
+          <option value="general" selected>General Inquiry</option>
+          <option value="tournament">Tournament Support</option>
+          <option value="technical">Technical Issue</option>
+          <option value="partnership">Partnership</option>
+          <option value="media">Media Request</option>
+        </select>
+        <div>
+          <label for="floatingTextarea" class="form-label"
+            >Messages</label
+          >
+          <textarea
+            class="form-control bg-gray-700 text-white"
+            rows="5"
+            cols="5"
+            placeholder="Tell us how we can help you..."
+            id="floatingTextarea"
+            name="Message"
+          ></textarea>
+        </div>
+        <div>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="checkIndeterminate"
+            name="newsletter"
+          />
+          <label
+            class="form-check-label text-gray-400"
+            for="checkIndeterminate"
+          >
+            Subscribe to our newsletter for gaming updates
+          </label>
+        </div>
+        <div class="col-12">
+          <button
+            type="submit"
+            class="d-flex justify-content-center align-items-center w-100 btn btn-primary btn-background text-dark transition-colors fw-bold position-relative btn-shine px-4 py-3"
+          >
+            Send Messages
+            <span class="fa-solid fa-paper-plane ms-3"></span>
+          </button>
+        </div>
+      </form>
+      <div class="pt-32 border-top mt-4">
+        <div
+          class="d-flex justify-content-center align-items-center justify-content-around mt-2"
+        >
+          <div>
+            <div class="text-primary mb-1 fs-4 fw-bold">24/7</div>
+            <div class="text-gray-400 fs-7">Support Available</div>
+          </div>
+          <div>
+            <div class="text-primary mb-1 fs-4 fw-bold">&lt;1hr</div>
+            <div class="text-gray-400 fs-7">Average Response</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </section>
     </main>
